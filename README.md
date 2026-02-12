@@ -62,3 +62,23 @@ brew install nmap
 
 # Install Nuclei (optional, for template scanning)
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+
+
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/enterprise-security-scanner.git
+cd enterprise-security-scanner
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# Windows:
+venv\Scripts\activate
+# Linux/macOS:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+streamlit run app.py

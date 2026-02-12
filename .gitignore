@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+*.db
+*.db-journal
+*.log
+
+# Streamlit
+.streamlit/
+*.streamlit
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Security
+*.key
+*.pem
+*.crt
+*.p12
+secrets/
+credentials/
+
+# Backup
+backups/
+*.backup
+*.bak
+
+# Test reports
+test-reports/
+htmlcov/
+.coverage
+
+# Database backups
+*.sql
+*.sqlite
+*.db-backup
+
+# Large files
+*.csv
+*.json
+!requirements.json
+*.pickle
+*.pkl
+
+# Temporary files
+tmp/
+temp/
+*.tmp
